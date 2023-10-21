@@ -27,7 +27,8 @@ city_name = StringVar()
 list_name = ["AndhraPradesh" ,"ArunachalPradesh" ,"Assam","Bihar","Chhattisgarh","Goa","Gujarat",
              "Haryana","HimachalPradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","MadhyaPradesh",
              "Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab","Rajasthan","Sikkim","TamilNadu","Telangana",
-             "Tripura","UttarPradesh","Uttarakhand","WestBengal","Andaman and NicobarIslands","Chandigarh","Dadra and NagarHaveli","Daman and Diu","Lakshadweep","NationalCapitalTerritoryofDelhi","Puducherry"]
+             "Tripura","UttarPradesh","Uttarakhand","WestBengal","Andaman and NicobarIslands","Chandigarh","Dadra and NagarHaveli",
+             "Daman and Diu","Lakshadweep","NationalCapitalTerritoryofDelhi","Puducherry"]
 com = ttk.Combobox(win,text="Weather App",values=list_name,
                  font=("Time New Roman",20,"bold"),textvariable=city_name)
 
